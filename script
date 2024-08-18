@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 1. Check if file exists at given location
+
+# 2. Check if logged in, if not, log in
+
+# 3. Set Parameters like target directory, storage class else use default values
+
+# 4. Upload file
+
+# 4.1 Status progress bar
+
+# 4.2 If file exists, ask to overwrite or rename
+
+# 4.3 use encryption
+
+# 4.4 Sucess or error message
+
+# 4.5 Return shareable like post download
