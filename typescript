@@ -1,0 +1,20 @@
+Script started on Sat Aug 17 19:42:24 2024
+/dev/fd/12:18: command not found: compdef
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h../script[?2004l
+Hello
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume[?2004l
+./Resume
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume[?2004l
+./script: line 6: syntax error near unexpected token `else'
+./script: line 6: `else'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume[?2004l
+File does not exist
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume.pdf[?2004l
+File does not exist
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume.pdf./Resume.pdf[11D[?2004l
+../Resume.pdf
+[1m[7m%[27m[1m[0m         ./script ./Resume.pdf[?2004l
+File does not exist
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume.pdf./Resume.pdf[11D[?2004l
+../Resume.pdf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf            
