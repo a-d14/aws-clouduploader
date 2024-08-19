@@ -1,13 +1,25 @@
 #!/bin/bash
 
+login() {
+    if ! aws sts get-caller-identity --profile aws-admin > /dev/null 2>&1; then
+        echo 'User not logged in to AWS. Logging in...'
+        if ! aws sso login --profile $AWS_PROFILE; then
+            echo 'Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html'
+            return
+        fi
+    fi
+    echo 'User logged in'
+}
+
 # 1. Check if file exists at given location
 if [ -f "$1" ]; then
     echo "$1"
+    # echo $AWS_PROFILE
+    # 2. Check if logged in, if not, log in
+    login
 else
     echo "File does not exist"
 fi
-
-# 2. Check if logged in, if not, log in
 
 # 3. Set Parameters like target directory, storage class else use default values
 

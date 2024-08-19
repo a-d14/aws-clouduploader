@@ -15,6 +15,223 @@ File does not exist
 ../Resume.pdf
 [1m[7m%[27m[1m[0m         ./script ./Resume.pdf[?2004l
 File does not exist
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ./Resume.pdf./Resume.pdf[11D[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                      ./script ../Resume.pdf             abc/xyz[?2004l
+File does not exist
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script abc/xyz../Resume.pdf[?2004l
 ../Resume.pdf
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf            
+
+An error occurred (InvalidClientTokenId) when calling the GetCallerIdentity operation: The security token included in the request is invalid.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs../Resume.pdf[?2004l
+../script ../Resume.pdf[?2004l
+../Resume.pdf
+
+An error occurred (InvalidClientTokenId) when calling the GetCallerIdentity operation: The security token included in the request is invalid.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+[?1h={[m
+    "UserId": "AROA6GBMDYTLFX2Y6HVHF:aakashdasgupta",[m
+    "Account": "975050097878",[m
+    "Arn": "arn:aws:sts::975050097878:assumed-role/AWSReservedSSO_AdministratorAccess_3dc664ba8f43f966/aakashdasgupta"[m
+}[m
+[K[?1l>[1m[7m%[27m[1m[0m                                                                                                                                                  ./script ../Resume.pdf[?2004l
+../Resume.pdf
+[?1h={[m
+    "UserId": "AROA6GBMDYTLFX2Y6HVHF:aakashdasgupta",[m
+    "Account": "./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+Error loading SSO Token: Token for my-sso does not exist
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+Error loading SSO Token: Token for my-sso does not exist
+fail
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+./script: line 8: syntax error near unexpected token `2'
+./script: line 8: `    if aws sts get-caller-identity --profile aws-admin > /dev/null > 2>&1; then'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakash./script ../Resume.pdf[?2004l
+./script ../Resume.pdf[?2004l
+../Resume.pdf
+fail
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+./script: line 13: syntax error near unexpected token `else'
+./script: line 13: `else'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+User logged in
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+./script: line 10: syntax error near unexpected token `}'
+./script: line 10: `}'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+The config profile (my-dev-profile) could not be found
+Please login with your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+User logged in
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         User not logged in to AWS. Logging in...
+
+The config profile (my-dev-profile) ./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://device.sso.us-east-1.amazonaws.com/
+
+Then enter the code:
+
+KVTB-VXFM
+^C
+Please login with your credentials. Learn more at https://docs.aws.amazon.com/cl./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://device.sso.us-east-1.amazonaws.com/
+
+The./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+usage: aws [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+[1m[7m%[27m[1m[0m                                                                                                                                  ./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+usage: aws [--profile PROFILE] [--debug]
+
+aws: error: argu./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+Missing the following required SSO configuration values: sso_start_url, sso_region. To make sure this profile is properly configured to use SSO, please run: aws configure sso
+Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+[1m[7m%[27m[1m[0m                                                       ./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+Missing the following required SSO configuration values: sso_start_url, sso_region. To make sure this profile is properly configured to./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+usage: aws [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+[1m[7m%[27m[1m[0m                                                                                                                                  ./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+usage: aws [--profile PROFILE] [--debug]
+
+aws: error: argu./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://device.sso.us-east-1.amazonaws.com/
+
+Then enter the code:
+
+MBFC-NKBV
+^C
+Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/lat./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+Attempting to automatically open the SSO authorization page in your default browser.
+If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+
+https://device.sso.us-east-1.amazonaws.com/
+./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+Missing the following required SSO configuration values: sso_start_url, sso_region. To make sure this profile is properly configured to use SSO, please run: aws configure sso
+Please setup your credentials. Learn more at https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html
+[1m[7m%[27m[1m[0m                                                       ./script ../Resume.pdf[?2004l
+../Resume.pdf
+User not logged in to AWS. Logging in...
+
+Missing the following required SSO configuration values: sso_start_url, sso_region. To make sure this profile is properly configured to./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                     ./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                             ./script ../Resume.pdf[?2004l
+../Resume.pdf
+/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/home./script ../Resume.pdf[?2004l
+../Resume.pdf
+/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aakashdasgupta/.local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Users/aakashdasgupta/opt/anaconda3/bin:/Users/aakashdasgupta/opt/anaconda3/condabin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+aakashdasgupta
+[1m[7m%[27m[1m[0m                       ./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                           ./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004heecho $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004hecho $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004hecho $AWS_PROFILE[17D./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                   echo $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                   ccd ! ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP ~ % [K[?2004heecho $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                ccd ! ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                   echo $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP ~ % [K[?2004hecho $AWS_PROFILE[17Dcd ~             [13D./script ../Resume.pdf[?2004l
+zsh: no such file or directory: ./script
+[1m[7m%[27m[1mecho $AWS_PROFILE[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP ~ % [K[?2004hecho $AWS_PROFILE[17Dcd ~             [13D./script ../Resume.pdf[?2004l
+zsh: no such file or directory: ./script
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP ~ % [K[?2004hccd clou       ccdc  lls[?2004l
+AWSCLIV2.pkg			Documents			Music				PycharmProjects			eclipse-workspace		project
+AndroidStudioProjects		Downloads			Pictures			cs				java_error_in_studio.hprof	target
+Applications			Library				Postman				dumps				nltk_data
+Desktop				Movies				Public				eclipse				opt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP ~ % [K[?2004hd ccd DE r esktop[1m/[0m[0m/clouduploader[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aak./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h./script ../Resume.pdf[?2004l
+../Resume.pdf
+/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/home./script ../Resume.pdf[?2004l
+../Resume.pdf
+/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aakashdasgupta/.local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/Users/aakashdasgupta/.nvm/versions/node/v16.19.1/bin:/Users/aakashdasgupta/opt/anaconda3/bin:/Users/aakashdasgupta/opt/anaconda3/condabin:/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/aakashdasgupta/Library/Application Support/Coursier/bin:/Users/aakashdasgupta/Library/Application Support/Coursier/bin
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                         [0m[27m[24m[J(base) aakashdasgupta@Aakashs-MBP clouduploader % [K[?2004h
