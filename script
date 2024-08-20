@@ -2,7 +2,6 @@
 
 source_file_path=''
 target_directory=''
-create=false
 
 processArguments() {
     while [ $# -gt 0 ]; do
@@ -10,9 +9,6 @@ processArguments() {
             --help)
                 echo 'usage'
                 exit 0
-                ;;
-            --create)
-                create=true
                 ;;
             *)
                 if [ "$source_file_path" = '' ]; then
@@ -73,10 +69,3 @@ processArguments "$@"
 echo "$AWS_PROFILE"
 
 main
-
-
-# 4.1 Status progress bar
-
-# 4.2 If file exists, ask to overwrite or rename
-
-# 4.5 Return shareable like post download
