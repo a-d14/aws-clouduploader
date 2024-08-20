@@ -17,7 +17,6 @@ processArguments() {
             *)
                 if [ "$source_file_path" = '' ]; then
                     source_file_path=$1
-                    # echo "$source_file_path"
                 else
                     target_directory=$1
                 fi
@@ -37,7 +36,6 @@ processArguments() {
 }
 
 checkFile() {
-    # 1. Check if file exists at given location
     if [[ ! -f $1 ]]; then
         echo "The specified file does not exist"
         return 1
@@ -57,8 +55,7 @@ login() {
 }
 
 upload() {
-    # 4. Upload file
-    aws s3 cp $source_file_path $target_directory --profile $AWS_PROFILE
+    aws s3 cp --sse AES256 $source_file_path $target_directory --profile $AWS_PROFILE
 }
 
 main() {
@@ -78,14 +75,8 @@ echo "$AWS_PROFILE"
 main
 
 
-# main
-
 # 4.1 Status progress bar
 
 # 4.2 If file exists, ask to overwrite or rename
-
-# 4.3 use encryption
-
-# 4.4 Sucess or error message
 
 # 4.5 Return shareable like post download
