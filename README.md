@@ -3,7 +3,7 @@
 CloudUploader is a CLI tool that allows you to upload a file from your local system to an S3 bucket with one simple command.
 
 ## Installation and Setup
-Before you download this you need a have an AWS account and need to set up the IAM Identity Center. 
+Before you download this you need a have an AWS account and need to set up the IAM Identity Center and S3. 
 Follow this link for instructions - https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html 
 
 Next, define two environment variables namely, 
