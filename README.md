@@ -22,3 +22,5 @@ ps -p $$
 ```bash
 ./script <source_path> <destination_path>
 ```
+
+The destination path should be of the following format - ```s3://<bucket-name>/<directory-name>```
